@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "com.main.practice.facerecognitionclient"
         minSdkVersion 21
@@ -26,5 +27,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.+'
+    compile 'com.google.android.gms:play-services-vision:10.2.1'
     testCompile 'junit:junit:4.12'
 }
