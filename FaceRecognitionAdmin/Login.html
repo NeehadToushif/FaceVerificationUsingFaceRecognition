@@ -1,3 +1,8 @@
+
+
+
+
+
 <html>
 <head>
     <title>Alliance University</title>
@@ -10,7 +15,7 @@
 </header>
    
      <div class="coniter-area">
-    <form>
+    <form action="HOME.php" method="post">
 	    <div class="main-area">
 	     <label for="email" class="hidden-label">Email</label>
 		 <input type="email" id="email" name="email" placeholder="email">
@@ -36,4 +41,21 @@
 	</nav>
 </body>
 
+<?php
+if(isset($_POST["submit"])){
+	$db=mysqli_connect('localhost','root','') or die("unable to connection");
+	mysqli_select_db($db,'Facereco') or die(mysqli_error($db));
+	if(($email==$_POST["piku"])&&($password==$_POST["pass"])){
+	      echo "Login Successful";
+            header('Location:home.html');
+            exit();
+	}else{
+		echo "You are not in our database".mysqli_connect_error();
+	}
+	mysqli_close($con);
+	}
+
+
+
+?>
 </html>
