@@ -1,3 +1,50 @@
+<?php
+
+$db=mysqli_connect('localhost','root','') or die('unable to connect .check the munachully parametrs');
+
+
+mysqli_select_db($db,'face_recognition') or die(mysqli_error($db));
+
+if($db){
+
+
+	if(isset($_POST["submit"])) {
+		
+
+		   $image = $_FILES['photo']['tmp_name'];
+		   //echo $image
+        $imgContent = addslashes(file_get_contents($image));
+        //echo $imgContent."\n";
+
+	$sql = "INSERT INTO student (stud_id,stud_name,stud_pass,dept_name,sem,photo) VALUES ('
+	".$_POST["reg"]."','"
+	.$_POST["name"]."','"
+	.$_POST["password"]."','"
+	.$_POST["branch"]."',"
+	.$_POST["batch"].",'"
+	.$imgContent
+
+	."') ";
+
+// 	$sql = <<<QUERY
+// INSERT INTO 
+// 		student (stud_id,stud_name,stud_pass,dept_name,sem,photo) 
+// VALUES ('{$_POST["reg"]}', '{}'
+
+
+// QUERY;
+	//echo $sql;
+
+	mysqli_query($db,$sql) or die(mysqli_error($db));
+
+//	echo "Success";
+
+}
+ 
+
+}
+?>
+
 <html>
 <head>
     <title>regitation</title>
