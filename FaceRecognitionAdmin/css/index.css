@@ -32,8 +32,8 @@ body{
 	opacity:0.8;
 }
 .fa{
-	color:#fff;
-	background:#333;
+	color:#000 !important;
+	background:#FFF;
 	padding:4px;
 	border-radius:5px;
 	font-size:30px;
