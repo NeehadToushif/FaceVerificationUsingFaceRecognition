@@ -9,7 +9,7 @@ body{
 	opacity:0.8;
 }
 #home-section{
-	background:url('people-mother-family-father.jpg');
+	background:url('../image/people-mother-family-father.jpg');
 	background-size:cover;
 	background-attachment:fixed;
 	min-height:700px;
