@@ -1,163 +1,424 @@
-<!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
-    <title>HOME PAGE</title>
-
-
-<style>
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px; 
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Profile Image
- m1{
-    border-radius:50%;
-}
-</style>
-</head>
-<body>
-
-<!-- Navigation -->
-<div class="navbar">
-<div class="dropdown">
-    <button class="dropbtn">ADD 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Class</a>
-      <a href="#">Student</a>
-      <a href="#">Teacher</a>
-	  <a href="#">Subject</a>
-    </div>
-  </div> 
-  <a href="#View Attendance">View Attendance</a>
-  <a href="#Logout">Logout</a>
+<!doctype html>
+<html lang="en">
+  <head>
   
-</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>home_page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
+	  <div class="container-fluid">
+	     <a href="home.html" class="navbar-brand"><strong>FaceReconization</strong></a>
+		 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+		 <span class="navbar-toggler-icon"></span>
+		 </button>
+		 <div class="collapse navbar-collapse" id="navbarNav">
+		 <ul class="navbar-nav">
+			  <li class="navbar-item px-2">
+			   <a href="allstudent.html" class="nav-link active">AllStudent</a>
+			  </li>
+			  <li class="navbar-item px-2">
+			   <a href="View_attn.html" class="nav-link active"><strong>View Attandance</strong></a>
+			  </li>
+			  <li class="navbar-item px-2">
+			   <a href="Branch.html" class="nav-link active">Total Branch</a>
+			  </li>
+			   <li class="navbar-item px-2">
+			   <a href="sub.html" class="nav-link active">Total Subject</a>
+			  </li>
+			  </ul>
+			  
+			  
+			  <ul class="navbar-nav ml-auto">
+			  <li class="nav-item dropdown mr-3">
+			  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+			  <i class="fa fa-user"></i> welcome brand
+			  </a>
+			  
+			  <div class="dropdown-menu">
+			   <a href="profile.html" class="dropdown-item">
+				  <i class="fa fa-user"></i>Profie
+			   </a>
+			   
+			    <a href="setting.html" class="dropdown-item">
+				  <i class="fa fa-gear"></i> Setting
+				</a>
+				</div>
+				 </li>
+				 
+				 
+					 <li class="nav-item">
+					   <a href="login.html" class="nav-link">
+						 <i class="fa fa-user"></i> Logout
+						 </a>
+						 </li>
+						 </ul>
+						 </div>
+						 </div>
+				</nav>
+				
+				
+ 				 
+				 
+				 <!--action-->
+				 
+				 <section id="action" class="py-4 mb-4 bg-light">
+				  <div class="container">
+				     <div class="row">
+					    <div class="col-md-3">
+						   <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addpoststdmodel">
+						   <i class="fa fa-plus"></i>Add Student
+                            </a>
+                           </div>
+                           <div class="col-md-3">
+						   <a href="#" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#addpostteamodel">
+						   <i class="fa fa-plus"></i>Add Teachers
+                            </a>
+                           </div>
+						   <div class="col-md-3">
+						   <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#addpostbramodel">
+						   <i class="fa fa-plus"></i>Add Branch
+                            </a>
+                           </div>
+						   <div class="col-md-3">
+						   <a href="#" class="btn btn-danger btn-block" data-toggle="modal" data-target="#addpostsubmodal">
+						   <i class="fa fa-plus"></i>Add Subject
+                            </a>
+                           </div>
+						   </div>
+						   </div>
+						   </section>
+						 
+	<!-- models studebt-->
+	                   <div class="modal fade" id="addpoststdmodel">
+					     <div class="modal-dialog modal-lg">
+						     <div class="modal-content">
+							     <div class="mode-header bg-primary text-white"> 
+								    <h5 class="modal-title">ADD STUDENT</h5>
+						    <button class="close" data-dismiss="modal">
+						<span>&times;</span></button>
+						</div>
+					<div class="modal-body">
+							   <form> 
+							   
+							      <div class="form-group">
+								  <label for="title">Name</label>
+								  <input type="text" class="form-control" placeholder="Name">
+								 </div>
+								 <div class="form-group">
+								 <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                   <label class="btn btn-primary active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Male
+                                   </label>
+                                   <label class="btn btn-primary">
+                                   <input type="radio" name="options" id="option2" autocomplete="off"> Female
+                                   </label>
+                                   </div>
+								   
+								 </div>
+								 <div class="form-group">
+								  <label for="title">Registation</label>
+								  <input type="text" class="form-control" placeholder="Registration">
+								 </div>
+								 
+								 <div class="form-group">
+								  <label for="title">Password</label>
+								  <input type="text" class="form-control" placeholder="Password">
+								 </div>
+								 
+								 <div class="form-group">
+								    <label for="title">Branch</label>
+									<select class="form-control">
+									    <option value="">CSE</option>
+										<option value="">ARO</option>
+										<option value="">EEE</option>
+									</select>
+								</div>
+								
+								<div class="form-group">
+								  <label for="title">Year</label>
+								  <input type="text" class="form-control" placeholder="Year">
+								 </div>
+								 
+								<div class="form-group">
+								     <label for="file"><image Upload </label>
+									 <input type="file" class="form-control-file">
+									 <small clan="form-text text-method">Max Size 5mb</small>
+								</div>
+								</form>
+							  </div>
+							  <div class="modal-footer">
+							     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+								 <button class="btn btn-primary" data-dismiss="modal">Save</button>
+							</div>
+						  </div>
+						 </div>
+						</div>
+						</div>
+						   
+	 <!-- models teacher-->
+	 
+	            
+				<div class="modal fade" id="addpostteamodel">
+					     <div class="modal-dialog modal-lg">
+						     <div class="modal-content">
+							     <div class="mode-header bg-dark text-white"> 
+								    <h5 class="modal-title">ADD Teachers</h5>
+						    <button class="close" data-dismiss="modal">
+						<span>&times;</span></button>
+						</div>
+					<div class="modal-body">
+							   <form> 
+							   
+							      <div class="form-group">
+								  <label for="title">Name</label>
+								  <input type="text" class="form-control" placeholder="Name">
+								 </div>
+								 
+								 <div class="form-group">
+								  <label for="title">Password</label>
+								  <input type="text" class="form-control" placeholder="Password">
+								 </div>
+								 
+								  <div class="form-group">
+								 <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                   <label class="btn btn-primary active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Male
+                                   </label>
+                                   <label class="btn btn-primary">
+                                   <input type="radio" name="options" id="option2" autocomplete="off"> Female
+                                   </label>
+                                   </div>
+								   </div>
+								  
+								<div class="form-group">
+								  <label for="title">Designation</label>
+								  <input type="text" class="form-control" placeholder="Designation">
+								 </div>
+								 
+								<div class="form-group">
+								     <label for="file"><image Upload </label>
+									 <input type="file" class="form-control-file">
+									 <small clan="form-text text-method">Max Size 5mb</small>
+								</div>
+								</form>
+							  </div>
+							  <div class="modal-footer">
+							     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+								 <button class="btn btn-primary" data-dismiss="modal">Save</button>
+							</div>
+						  </div>
+						 </div>
+						</div>
+						</div>
+						
+						
+						
+	 <!-- models Branch-->
+	 <div class="modal fade" id="addpostbramodel">
+					     <div class="modal-dialog modal-lg">
+						     <div class="modal-content">
+							     <div class="mode-header bg-success text-white"> 
+								    <h5 class="modal-title">ADD Branch</h5>
+						    <button class="close" data-dismiss="modal">
+						<span>&times;</span></button>
+						</div>
+					<div class="modal-body">
+							   <form> 
+							   
+							      <div class="form-group">
+								  <label for="title">Branch Name</label>
+								  <input type="text" class="form-control" placeholder="Name">
+								 </div>
+								</form>
+								</div>
+								<div class="modal-footer">
+							     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+								 <button class="btn btn-success" data-dismiss="modal">Save</button>
+							</div>
+						 </div>
+						 </div>
+						</div>
+
+						
+						
+	<!---Models Subject-->
+	
+	             <div class="modal fade" id="addpostsubmodal">
+					     <div class="modal-dialog modal-lg">
+						     <div class="modal-content">
+							     <div class="mode-header bg-danger text-white"> 
+								    <h5 class="modal-title">ADD Subject</h5>
+						    <button class="close" data-dismiss="modal">
+						<span>&times;</span></button>
+						</div>
+					<div class="modal-body">
+							   <form> 
+							   
+							      <div class="form-group">
+								  <label for="title">Subject Name</label>
+								  <input type="text" class="form-control" placeholder="Subject name">
+								 </div>
+								
+								 <div class="form-group">
+								  <label for="title">Subject Id</label>
+								  <input type="text" class="form-control" placeholder="Subject Id">
+								 </div>
+								 
+								 <div class="form-group">
+								  <label for="title">Semester</label>
+								  <input type="text" class="form-control" placeholder="Semester">
+								 </div>
+								 
+								<div class="form-group">
+								  <label for="title">Branch Id</label>
+								  <input type="text" class="form-control" placeholder="Branch Id">
+								 </div>
+								 
+								
+								</form>
+							  </div>
+							  <div class="modal-footer">
+							     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+								 <button class="btn btn-danger" data-dismiss="modal">Save</button>
+							</div>
+						  </div>
+						 </div>
+						</div>
+						</div>
+						
+		<!--post-->
+		 <section id="posts">
+		   <div class="container">
+		     <div class="row">
+			    <div class="col-md-9">
+				  <div class="card">
+				     <div class="card-header">
+					    <h4>Latest Post</h4>
+					 </div>
+					 <table class="table table-striped">
+					   <thead class="thead-inverse">
+					     <tr>
+						   <th>#</th>
+						   <th>Title</th>
+						   <th>Category</th>
+						   <th>Date post</th>
+						 </tr>
+						</thead>
+						<tbody>
+						  <tr>
+						     <td Scope="row"></td>
+							 <td>Post one</td>
+							 <td>Webdevlopement</td>
+							 <td>okay</td>
+							 <td><a href="details.html" class="btn btn-secondary">
+							 <i class="fa fa-angle-double-right"></i>
+							 Details</a></td>
+						  </tr>
+						  <tr>
+						     <td Scope="row"></td>
+							 <td>Post one</td>
+							 <td>Webdevlopement</td>
+							 <td>okay</td>
+							 <td><a href="details.html" class="btn btn-secondary">
+							 <i class="fa fa-angle-double-right"></i>
+							 Details</a></td>
+						  </tr>
+						  <tr>
+						     <td Scope="row"></td>
+							 <td>Post one</td>
+							 <td>Webdevlopement</td>
+							 <td>okay</td>
+							 <td><a href="details.html" class="btn btn-secondary">
+							 <i class="fa fa-angle-double-right"></i>
+							 Details</a></td>
+						  </tr>
+						  <tr>
+						     <td Scope="row"></td>
+							 <td>Post one</td>
+							 <td>Webdevlopement</td>
+							 <td>okay</td>
+							 <td><a href="details.html" class="btn btn-secondary">
+							 <i class="fa fa-angle-double-right"></i>
+							 Details</a></td>
+						  </tr>
+						  <tr>
+						     <td Scope="row"></td>
+							 <td>Post one</td>
+							 <td>Webdevlopement</td>
+							 <td>okay</td>
+							 <td><a href="details.html" class="btn btn-secondary">
+							 <i class="fa fa-angle-double-right"></i>
+							 Details</a></td>
+						  </tr>
+						  </tbody>
+						  </table>
+						  </div>
+						  </div>
+						  
+
+						  <div class="col-md-3">
+						    <div class="card text-center bg-info text-white mb-3">
+							    <div class="card-body">
+								   <h3>TOTAL STUDENT</h3>
+								     <h1 class="display-4">
+									     <i class="fa fa-pencil"></i>6
+									 </h1>
+									<a href="allstudent.html" class="btn btn-outline-light btn-sm">VIEW</a>
+									</div>
+								  </div>
+								 
+								  <div class="card text-center bg-warning text-white mb-3">
+							    <div class="card-body">
+								   <h3>TOTAL BRANCH</h3>
+								     <h1 class="display-4">
+									     <i class="fa fa-users"></i>6
+									 </h1>
+									<a href="branch.html" class="btn btn-outline-light btn-sm">VIEW</a>
+									</div>
+								  </div>
+								  
+								  <div class="card text-center bg-primary text-white mb-3">
+							    <div class="card-body">
+								   <h3>TOTAL SUBJECT</h3>
+								     <h1 class="display-4">
+									     <i class="fa fa-folder-open-o"></i>6
+									 </h1>
+									<a href="sub.html" class="btn btn-outline-light btn-sm">VIEW</a>
+									</div>
+								  </div>
+								  
+								  </div>
+								 </div>
+								</div>
+							  </section>
+								
+
+<!---footer-->
+                       <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+                            <div class="container">
+                                <div class="row">
+                                     <div class="col">
+                                         <p class="lead text-center">Copyright &copy:10.03.2018 </p>
+									  </div>
+									</div>
+								</div>
+							</footer>
+										 
+							 
+						  
+						
 
 
-<!-- Slide Show -->
-<section>
-  <img class="mySlides" src="img1.jpg"
-  style="width:100%">
-  <img class="mySlides" src="img2.jpg"
-  style="width:100%">
-  
-</section>
-
-<!-- Team Description -->
-<section class="develop" style="max-width:600px">
-  <h2 class="title">THE UNIFIED</h2>
-  <p class="content"><i>We love to develop</i></p>
-  
-</section>
-
-<!-- Team Members -->
-<section class="team">
-  <article class="m1">
-    <p>Satyam</p>
-    <img src="profile1.jpg" alt="Random Name" style="width:30%" align="left" >
-    <p>Satyam is all-rounder.</p>
-  </article>
-  <article class="m2">
-    <p>Partho</p>
-    <img src="profile3.jpg" alt="Random Name" style="width:30%" align="middle">
-    <p>Partho is a backend developer.</p>
-  </article>
-  <article class="m3">
-    <p>Neehad</p>
-    <img src="profile2.jpg" alt="Random Name" style="width:30%" align="right">
-    <p>Neehad is the frontend developer.</p>
-  </article>
-</section>
-
-
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
-</script>
-
-</body>
+	 
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
-
