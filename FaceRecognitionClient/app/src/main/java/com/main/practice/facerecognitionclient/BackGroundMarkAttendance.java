@@ -30,6 +30,10 @@ public class BackGroundMarkAttendance extends AsyncTask<String,String,String> {
 
         try {
             String user_name = params[0];
+<<<<<<< HEAD
+=======
+         //   String date = params[1];
+>>>>>>> 05004f7af20c96ba61b1dccbc9d780fc6557c6f8
             String sub = params[1];
             String login_url = params[2];
 
@@ -50,7 +54,11 @@ public class BackGroundMarkAttendance extends AsyncTask<String,String,String> {
             bufferedWriter.close();
             outputStream.close();
 
+<<<<<<< HEAD
 //            // Receiving response from the server
+=======
+            // Receiving response from the server
+>>>>>>> 05004f7af20c96ba61b1dccbc9d780fc6557c6f8
             InputStream inputStream = httpURLConnection.getInputStream();
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             String result="";

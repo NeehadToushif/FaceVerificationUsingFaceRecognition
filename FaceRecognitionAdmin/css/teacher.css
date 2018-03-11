@@ -19,9 +19,10 @@ input[type=email],
 input[type=Name],
 input[type=Re-password],
 input[type=password],
-input[type="text"],
-input[type="number"],
+input[type=text],
+input[type=number],
 select
+
 {
 	width:35%;
 	display:block;
