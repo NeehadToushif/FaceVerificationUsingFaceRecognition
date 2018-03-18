@@ -1,0 +1,13 @@
+
+h5.modal-title {
+    width: 90%;
+    float: left;
+}
+
+button.close {
+    color: #fff;
+}
+
+.mode-header {
+    padding: 15px;
+}

@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee3815a-a55c-4973-9d33-b968897f0248" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/All_student.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/Attandance.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/NewIndex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/TeacherRegter.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/Tec_reg.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/index/people-mother-family-father.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/index/str.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/index/strap.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/lolo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/register.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/subject.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/test.html" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/css/modal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/home.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/html/branch_model.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/html/teacher_model.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/index.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/Home.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/css/index.css" afterPath="$PROJECT_DIR$/FaceRecognitionAdmin/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/FaceRecognitionAdmin/index.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,72 +22,232 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="All_student.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/All_student.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2765">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1521280410801" expanded="true" signature="136:189" ph="SELECT stud_... student" />
-                <marker date="1521280410801" expanded="true" signature="4089:4674" ph="..." />
-                <marker date="1521280410801" expanded="true" signature="4297:4652" ph="..." />
-                <marker date="1521280410801" expanded="true" signature="4337:4448" ph="..." />
-                <marker date="1521280410801" expanded="true" signature="4513:4626" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Branch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/Branch.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/index.html">
+      <file leaf-file-name="db_operations.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/db_operations.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <marker date="1521340142061" expanded="true" signature="226:420" ph="INSERT INTO student" />
+                <marker date="1521340142061" expanded="true" signature="226:717" ph="INSERT INTO student... " />
+                <marker date="1521340142061" expanded="true" signature="796:1045" ph="INSERT INTO teacher... " />
+                <marker date="1521340142061" expanded="true" signature="1174:1206" ph="INSERT INTO deperment... " />
+                <marker date="1521340142061" expanded="true" signature="1174:1227" ph="INSERT INTO deperment... " />
+                <marker date="1521340142061" expanded="true" signature="1174:1229" ph="INSERT INTO deperment... " />
+                <marker date="1521340142061" expanded="true" signature="1343:1404" ph="INSERT INTO subject... " />
+                <marker date="1521340142061" expanded="true" signature="1343:1427" ph="INSERT INTO subject... " />
+                <marker date="1521340142061" expanded="true" signature="1343:1447" ph="INSERT INTO subject... " />
+                <marker date="1521340142061" expanded="true" signature="1343:1465" ph="INSERT INTO subject... " />
+                <marker date="1521340142061" expanded="true" signature="1343:1488" ph="INSERT INTO subject... " />
+                <marker date="1521340142061" expanded="true" signature="1608:1632" ph="SELECT * FRO... department" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../eaglesunv3_scada/api/src/dbmanager/DeviceManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521022511002" expanded="true" signature="2635:2757" ph="SELECT DISTI... inv_plant_map" />
+                <marker date="1521022511002" expanded="true" signature="3240:3534" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="6067:6363" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="10062:10330" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="14404:14670" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="17710:18003" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="21790:22082" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="26362:26507" ph="SELECT dip_d... dip_in_gen" />
+                <marker date="1521022511002" expanded="true" signature="29624:29736" ph="SELECT DISTI... inv_plant_map" />
+                <marker date="1521022511002" expanded="true" signature="30385:30678" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="32957:33253" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="36152:36445" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="41396:41687" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="44368:44661" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="49610:49901" ph="SELECT irrad... " />
+                <marker date="1521022511002" expanded="true" signature="54310:54455" ph="SELECT dip_d... dip_in_gen" />
+                <marker date="1521022511002" expanded="true" signature="56400:56565" ph="SELECT tempe... ws_list" />
+                <marker date="1521022511002" expanded="true" signature="58641:58840" ph="SELECT MAX(e... inverter_list" />
+                <marker date="1521022511002" expanded="true" signature="60008:60108" ph="SELECT DISTI... inv_scb_map" />
+                <marker date="1521022511002" expanded="true" signature="60653:60908" ph="SELECT energ... " />
+                <marker date="1521022511002" expanded="true" signature="64360:64472" ph="SELECT DISTI... inv_plant_map" />
+                <marker date="1521022511002" expanded="true" signature="65171:65451" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="71555:71834" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="77201:77480" ph="SELECT inver... " />
+                <marker date="1521022511002" expanded="true" signature="88488:88803" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="88991:89204" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="99124:99426" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="100640:100844" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="102523:102716" ph="SELECT scb_i... " />
+                <marker date="1521022511002" expanded="true" signature="103618:103710" ph="SELECT COUNT... inv_scb_map" />
+                <marker date="1521022511002" expanded="true" signature="108823:108931" ph="SELECT scb_i... scb_color" />
+                <marker date="1521022511002" expanded="true" signature="111330:111490" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="126423:126665" ph="SELECT scb_i... " />
+                <marker date="1521022511002" expanded="true" signature="147987:148049" ph="SELECT name users" />
+                <marker date="1521022511002" expanded="true" signature="148784:148895" ph="SELECT plant... alert" />
+                <marker date="1521022511002" expanded="true" signature="149485:149565" ph="UPDATE alert... " />
+                <marker date="1521022511002" expanded="true" signature="149745:149895" ph="INSERT INTO alert_history... " />
+                <marker date="1521022511002" expanded="true" signature="150231:150321" ph="UPDATE alert_history... " />
+                <marker date="1521022511002" expanded="true" signature="150561:155774" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="150584:153542" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="150769:153518" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="150799:150875" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="150905:151378" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="151438:151699" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="151731:151850" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="151884:152051" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="152077:152148" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="152180:152251" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="152284:152840" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="152879:153088" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="153139:153260" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="153292:153359" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="153386:153490" ph="{...}" />
+                <marker date="1521022511002" expanded="true" signature="153565:155754" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="153595:153607" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="153608:155734" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="153637:155715" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="153680:155689" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="153718:153738" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="153739:153911" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="153841:153870" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="153953:155455" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="154033:155424" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="154142:154237" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="154757:154762" ph="&amp;" />
+                <marker date="1521022511002" expanded="false" signature="154897:154930" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="154931:155091" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="154999:155020" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="155135:155152" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="155153:155230" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="155241:155257" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="155258:155352" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="155500:155662" ph="..." />
+                <marker date="1521022511002" expanded="true" signature="155537:155631" ph="..." />
+                <marker date="1521022511002" expanded="false" signature="155570:155576" ph="©" />
+                <marker date="1521022511002" expanded="true" signature="156031:156117" ph="SELECT email... users" />
+                <marker date="1521022511002" expanded="true" signature="164365:164781" ph="SELECT alert... alert" />
+                <marker date="1521022511002" expanded="true" signature="165079:165171" ph="SELECT COUNT... inv_plant_map" />
+                <marker date="1521022511002" expanded="true" signature="165363:165453" ph="SELECT COUNT... inv_scb_map" />
+                <marker date="1521022511002" expanded="true" signature="172484:172565" ph="SELECT name users" />
+                <marker date="1521022511002" expanded="true" signature="173361:173514" ph="SELECT alert... alert" />
+                <marker date="1521022511002" expanded="true" signature="173571:173718" ph="SELECT alert... alert" />
+                <marker date="1521022511002" expanded="true" signature="173965:174145" ph="SELECT alert... alert" />
+                <marker date="1521022511002" expanded="true" signature="174202:174376" ph="SELECT alert... alert" />
+                <marker date="1521022511002" expanded="true" signature="174776:174856" ph="UPDATE alert... " />
+                <marker date="1521022511002" expanded="true" signature="175161:175316" ph="INSERT INTO alert_history... " />
+                <marker date="1521022511002" expanded="true" signature="175721:175811" ph="UPDATE alert_history... " />
+                <marker date="1521022511002" expanded="true" signature="178431:178603" ph="SELECT scb_i... " />
+                <marker date="1521022511002" expanded="true" signature="183794:184009" ph="SELECT added... " />
+                <marker date="1521022511002" expanded="true" signature="184257:184472" ph="SELECT added... " />
+                <marker date="1521022511002" expanded="true" signature="188620:188793" ph="INSERT INTO dip_in_gen... " />
+                <marker date="1521022511002" expanded="true" signature="190923:191140" ph="SELECT times... " />
+                <marker date="1521022511002" expanded="true" signature="193914:194017" ph="SELECT scb_i... scb_color" />
+                <marker date="1521022511002" expanded="true" signature="195979:196065" ph="SELECT file_... " />
+                <marker date="1521022511002" expanded="true" signature="196677:196749" ph="SELECT plant... plant" />
+                <marker date="1521022511002" expanded="true" signature="197669:197818" ph="SELECT DISTI... inv_plant_map" />
+                <marker date="1521022511002" expanded="true" signature="199102:199212" ph="SELECT user_... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/validate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loadpic.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/loadpic.php">
+      <file leaf-file-name="student_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1521280410887" expanded="true" signature="342:391" ph="SELECT stud_... student" />
-              </folding>
+            <state relative-caret-position="969">
+              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacher.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/teacher.php">
+      <file leaf-file-name="subject_model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <marker date="1521280410918" expanded="true" signature="1263:1463" ph="INSERT INTO teacher" />
-                <marker date="1521280410918" expanded="true" signature="2521:2545" ph="SELECT * FRO... department" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacher_model.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/teacher_model.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>L̥</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/teacher.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/index.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/index.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/student_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/Home.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/teacher_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/branch_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/subject_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/css/index.css" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/css/modal.css" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/New folder/All_student.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/New folder/Insertion.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/Home.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/branch_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/teacher_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/home.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.html" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.php" />
+        <option value="$PROJECT_DIR$/FaceRecognitionAdmin/include/db_operations.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -119,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,20 +301,32 @@
               <item name="FaceVerificationUsingFaceRecognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="FaceVerificationUsingFaceRecognition" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="FaceRecognitionAdmin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FaceVerificationUsingFaceRecognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FaceVerificationUsingFaceRecognition" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FaceRecognitionAdmin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FaceVerificationUsingFaceRecognition\FaceRecognitionAdmin\include" />
+      <recent name="C:\xampp\htdocs\FaceVerificationUsingFaceRecognition\FaceRecognitionAdmin\html" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,12 +353,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521281375228</updated>
-      <workItem from="1521281378914" duration="808000" />
+      <workItem from="1521281378914" duration="16906000" />
+      <workItem from="1521340035760" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="808000" />
+    <option name="totallyTimeSpent" value="17274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -194,21 +367,21 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -223,49 +396,202 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/lolo.css">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/New folder/All_student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/All_student.php">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/New folder/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2765">
+        <state relative-caret-position="4488">
+          <caret line="264" column="36" lean-forward="true" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eaglesunv3_scada/api/src/dbmanager/DeviceManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521280410801" expanded="true" signature="136:189" ph="SELECT stud_... student" />
-            <marker date="1521280410801" expanded="true" signature="4089:4674" ph="..." />
-            <marker date="1521280410801" expanded="true" signature="4297:4652" ph="..." />
-            <marker date="1521280410801" expanded="true" signature="4337:4448" ph="..." />
-            <marker date="1521280410801" expanded="true" signature="4513:4626" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="2635:2757" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="3240:3534" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="6067:6363" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="10062:10330" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="14404:14670" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="17710:18003" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="21790:22082" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="26362:26507" ph="SELECT dip_d... dip_in_gen" />
+            <marker date="1521022511002" expanded="true" signature="29624:29736" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="30385:30678" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="32957:33253" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="36152:36445" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="41396:41687" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="44368:44661" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="49610:49901" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="54310:54455" ph="SELECT dip_d... dip_in_gen" />
+            <marker date="1521022511002" expanded="true" signature="56400:56565" ph="SELECT tempe... ws_list" />
+            <marker date="1521022511002" expanded="true" signature="58641:58840" ph="SELECT MAX(e... inverter_list" />
+            <marker date="1521022511002" expanded="true" signature="60008:60108" ph="SELECT DISTI... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="60653:60908" ph="SELECT energ... " />
+            <marker date="1521022511002" expanded="true" signature="64360:64472" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="65171:65451" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="71555:71834" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="77201:77480" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="88488:88803" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="88991:89204" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="99124:99426" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="100640:100844" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="102523:102716" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="103618:103710" ph="SELECT COUNT... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="108823:108931" ph="SELECT scb_i... scb_color" />
+            <marker date="1521022511002" expanded="true" signature="111330:111490" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="126423:126665" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="147987:148049" ph="SELECT name users" />
+            <marker date="1521022511002" expanded="true" signature="148784:148895" ph="SELECT plant... alert" />
+            <marker date="1521022511002" expanded="true" signature="149485:149565" ph="UPDATE alert... " />
+            <marker date="1521022511002" expanded="true" signature="149745:149895" ph="INSERT INTO alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="150231:150321" ph="UPDATE alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="150561:155774" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150584:153542" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150769:153518" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150799:150875" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="150905:151378" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151438:151699" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151731:151850" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151884:152051" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152077:152148" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152180:152251" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152284:152840" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152879:153088" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153139:153260" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153292:153359" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153386:153490" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153565:155754" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153595:153607" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153608:155734" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153637:155715" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153680:155689" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153718:153738" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153739:153911" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153841:153870" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153953:155455" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154033:155424" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154142:154237" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="154757:154762" ph="&amp;" />
+            <marker date="1521022511002" expanded="false" signature="154897:154930" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154931:155091" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="154999:155020" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155135:155152" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155153:155230" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155241:155257" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155258:155352" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155500:155662" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155537:155631" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155570:155576" ph="©" />
+            <marker date="1521022511002" expanded="true" signature="156031:156117" ph="SELECT email... users" />
+            <marker date="1521022511002" expanded="true" signature="164365:164781" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="165079:165171" ph="SELECT COUNT... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="165363:165453" ph="SELECT COUNT... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="172484:172565" ph="SELECT name users" />
+            <marker date="1521022511002" expanded="true" signature="173361:173514" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="173571:173718" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="173965:174145" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="174202:174376" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="174776:174856" ph="UPDATE alert... " />
+            <marker date="1521022511002" expanded="true" signature="175161:175316" ph="INSERT INTO alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="175721:175811" ph="UPDATE alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="178431:178603" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="183794:184009" ph="SELECT added... " />
+            <marker date="1521022511002" expanded="true" signature="184257:184472" ph="SELECT added... " />
+            <marker date="1521022511002" expanded="true" signature="188620:188793" ph="INSERT INTO dip_in_gen... " />
+            <marker date="1521022511002" expanded="true" signature="190923:191140" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="193914:194017" ph="SELECT scb_i... scb_color" />
+            <marker date="1521022511002" expanded="true" signature="195979:196065" ph="SELECT file_... " />
+            <marker date="1521022511002" expanded="true" signature="196677:196749" ph="SELECT plant... plant" />
+            <marker date="1521022511002" expanded="true" signature="197669:197818" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="199102:199212" ph="SELECT user_... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/Attandance.html">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/teacher_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/db_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <marker date="1521340142061" expanded="true" signature="226:420" ph="INSERT INTO student" />
+            <marker date="1521340142061" expanded="true" signature="226:717" ph="INSERT INTO student... " />
+            <marker date="1521340142061" expanded="true" signature="796:1045" ph="INSERT INTO teacher... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1206" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1227" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1229" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1404" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1427" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1447" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1465" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1488" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1608:1632" ph="SELECT * FRO... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/lolo.css" />
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/All_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/Attandance.html" />
     <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/Branch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -279,7 +605,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/NewIndex.html">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/NewIndex.html" />
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/TeacherRegter.php" />
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/css/modal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/New folder/All_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -287,21 +658,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/TeacherRegter.php">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/branch_model.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/teacher_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/teacher.php">
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/New folder/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4488">
+          <caret line="264" column="36" lean-forward="false" selection-start-line="264" selection-start-column="36" selection-end-line="264" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/subject_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eaglesunv3_scada/api/src/dbmanager/DeviceManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521280410918" expanded="true" signature="1263:1463" ph="INSERT INTO teacher" />
-            <marker date="1521280410918" expanded="true" signature="2521:2545" ph="SELECT * FRO... department" />
+            <marker date="1521022511002" expanded="true" signature="2635:2757" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="3240:3534" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="6067:6363" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="10062:10330" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="14404:14670" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="17710:18003" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="21790:22082" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="26362:26507" ph="SELECT dip_d... dip_in_gen" />
+            <marker date="1521022511002" expanded="true" signature="29624:29736" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="30385:30678" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="32957:33253" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="36152:36445" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="41396:41687" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="44368:44661" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="49610:49901" ph="SELECT irrad... " />
+            <marker date="1521022511002" expanded="true" signature="54310:54455" ph="SELECT dip_d... dip_in_gen" />
+            <marker date="1521022511002" expanded="true" signature="56400:56565" ph="SELECT tempe... ws_list" />
+            <marker date="1521022511002" expanded="true" signature="58641:58840" ph="SELECT MAX(e... inverter_list" />
+            <marker date="1521022511002" expanded="true" signature="60008:60108" ph="SELECT DISTI... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="60653:60908" ph="SELECT energ... " />
+            <marker date="1521022511002" expanded="true" signature="64360:64472" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="65171:65451" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="71555:71834" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="77201:77480" ph="SELECT inver... " />
+            <marker date="1521022511002" expanded="true" signature="88488:88803" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="88991:89204" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="99124:99426" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="100640:100844" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="102523:102716" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="103618:103710" ph="SELECT COUNT... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="108823:108931" ph="SELECT scb_i... scb_color" />
+            <marker date="1521022511002" expanded="true" signature="111330:111490" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="126423:126665" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="147987:148049" ph="SELECT name users" />
+            <marker date="1521022511002" expanded="true" signature="148784:148895" ph="SELECT plant... alert" />
+            <marker date="1521022511002" expanded="true" signature="149485:149565" ph="UPDATE alert... " />
+            <marker date="1521022511002" expanded="true" signature="149745:149895" ph="INSERT INTO alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="150231:150321" ph="UPDATE alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="150561:155774" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150584:153542" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150769:153518" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="150799:150875" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="150905:151378" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151438:151699" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151731:151850" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="151884:152051" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152077:152148" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152180:152251" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152284:152840" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="152879:153088" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153139:153260" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153292:153359" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153386:153490" ph="{...}" />
+            <marker date="1521022511002" expanded="true" signature="153565:155754" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153595:153607" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153608:155734" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153637:155715" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153680:155689" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153718:153738" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153739:153911" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="153841:153870" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="153953:155455" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154033:155424" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154142:154237" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="154757:154762" ph="&amp;" />
+            <marker date="1521022511002" expanded="false" signature="154897:154930" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="154931:155091" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="154999:155020" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155135:155152" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155153:155230" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155241:155257" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155258:155352" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155500:155662" ph="..." />
+            <marker date="1521022511002" expanded="true" signature="155537:155631" ph="..." />
+            <marker date="1521022511002" expanded="false" signature="155570:155576" ph="©" />
+            <marker date="1521022511002" expanded="true" signature="156031:156117" ph="SELECT email... users" />
+            <marker date="1521022511002" expanded="true" signature="164365:164781" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="165079:165171" ph="SELECT COUNT... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="165363:165453" ph="SELECT COUNT... inv_scb_map" />
+            <marker date="1521022511002" expanded="true" signature="172484:172565" ph="SELECT name users" />
+            <marker date="1521022511002" expanded="true" signature="173361:173514" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="173571:173718" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="173965:174145" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="174202:174376" ph="SELECT alert... alert" />
+            <marker date="1521022511002" expanded="true" signature="174776:174856" ph="UPDATE alert... " />
+            <marker date="1521022511002" expanded="true" signature="175161:175316" ph="INSERT INTO alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="175721:175811" ph="UPDATE alert_history... " />
+            <marker date="1521022511002" expanded="true" signature="178431:178603" ph="SELECT scb_i... " />
+            <marker date="1521022511002" expanded="true" signature="183794:184009" ph="SELECT added... " />
+            <marker date="1521022511002" expanded="true" signature="184257:184472" ph="SELECT added... " />
+            <marker date="1521022511002" expanded="true" signature="188620:188793" ph="INSERT INTO dip_in_gen... " />
+            <marker date="1521022511002" expanded="true" signature="190923:191140" ph="SELECT times... " />
+            <marker date="1521022511002" expanded="true" signature="193914:194017" ph="SELECT scb_i... scb_color" />
+            <marker date="1521022511002" expanded="true" signature="195979:196065" ph="SELECT file_... " />
+            <marker date="1521022511002" expanded="true" signature="196677:196749" ph="SELECT plant... plant" />
+            <marker date="1521022511002" expanded="true" signature="197669:197818" ph="SELECT DISTI... inv_plant_map" />
+            <marker date="1521022511002" expanded="true" signature="199102:199212" ph="SELECT user_... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/html/student_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecognitionAdmin/include/db_operations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1521340142061" expanded="true" signature="226:420" ph="INSERT INTO student" />
+            <marker date="1521340142061" expanded="true" signature="226:717" ph="INSERT INTO student... " />
+            <marker date="1521340142061" expanded="true" signature="796:1045" ph="INSERT INTO teacher... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1206" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1227" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1174:1229" ph="INSERT INTO deperment... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1404" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1427" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1447" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1465" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1343:1488" ph="INSERT INTO subject... " />
+            <marker date="1521340142061" expanded="true" signature="1608:1632" ph="SELECT * FRO... department" />
           </folding>
         </state>
       </provider>
