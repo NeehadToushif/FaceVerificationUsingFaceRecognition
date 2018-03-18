@@ -4,26 +4,38 @@ require_once "db_connect.php";
 function addStudent()
 {
     global $db;
-    $image = $_FILES['photo']['tmp_name'];
+    $image = $_FILES['image']['tmp_name'];
+    //$image = $_FILES['image']['tmp_name'];
     $imgContent = addslashes(file_get_contents($image));
 
-    // TODO: Check the bind params
+    // TODO: blob is not inserted
     $sql = "INSERT INTO 
-                student (stud_id, stud_name, stud_pass, dept_name, sem, Batch, Date, gender, photo) 
+                student (stud_id, stud_name, stud_pass, dept_name, sem, photo) 
               VALUES (
-                ?, ?, ?, ?, ?, ?, ?, ?, ?
+                ?, ?, ?, ?, ?, ?
               )";
+    echo $imgContent;
+    /*$stmt = mysqli_prepare($db, $sql) or die(mysqli_error($db));
 
-    $stmt = mysqli_prepare($db, $sql);
+    mysqli_stmt_bind_param($stmt, 'ssssib',$_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']
+        , $_POST['dept_name'], $_POST['sem'], $imgContent);
 
-    mysqli_stmt_bind_param($stmt, $_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']
-        , $_POST['dept_name'], $_POST['sem'], $_POST['batch'], $_POST['date'], $_POST['gender'], $imgContent);
+    print_r($stmt);
 
-    echo $stmt;
+    mysqli_stmt_execute($stmt);*/
 
-    mysqli_stmt_execute($stmt);
+    $stmt = $db->prepare($sql) or die(mysqli_error($db));
+
+
+
+    $stmt->bind_param('ssssib',$_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']
+        , $_POST['dept_name'], $_POST['sem'], $imgContent);
+
+    $stmt->execute();
+    print_r($stmt->fullQuery);
+
+    //mysqli_stmt_execute($stmt);
 }
-
 
 //insert into teacher
 function addTeacher()

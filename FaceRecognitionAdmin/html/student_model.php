@@ -6,22 +6,12 @@
                 <button class="close" data-dismiss="modal">
                     <span>&times;</span></button>
             </div>
-            <form action="home.php" method="post">
+            <form action="home.php" method="post" enctype="multipart/form-data">
                 <div class="modal-body">
 
                     <div class="form-group">
                         <label for="stud_name">Name</label>
                         <input type="text" id="stud_name" name="stud_name" class="form-control" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn btn-primary active">
-                                <input type="radio" name="gender" id="male" value="male" autocomplete="off" checked> Male
-                            </label>
-                            <label class="btn btn-primary">
-                                <input type="radio" name="gender" id="female" value="female" autocomplete="off"> Female
-                            </label>
-                        </div>
                     </div>
                     <div class="form-group">
                         <label for="reg_no">Registation No.</label>
@@ -54,16 +44,14 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="image">
-                            Upload Image
-                        </label>
-                        <input type="file" id="image" class="form-control-file">
+                        <label for="image">Upload Image</label>
+                        <input type="file" id="image" name="image" class="form-control-file">
                         <small clan="form-text text-method">Max Size 5mb</small>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <input type="submit" name="submit" value="Save branch" class="btn btn-success"/>
+                    <input type="submit" name="submit" value="Save student" class="btn btn-success"/>
                 </div>
             </form>
         </div>

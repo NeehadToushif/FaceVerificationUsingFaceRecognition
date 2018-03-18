@@ -113,11 +113,11 @@ if(isset($_POST['submit'])) {
                                 <p>Only for teachers and Admin</p>
                                 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control form-control-lg" name="id" placeholder="User ID">
+                                        <input type="text" class="form-control form-control-lg" name="id" value="" placeholder="User ID">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control form-control-lg"
-                                               name="password" placeholder="Password">
+                                               name="password" value="" placeholder="Password">
                                     </div>
                                     <input type="submit" class="btn btn-outline-light btn-block" name="submit">
                                 </form>

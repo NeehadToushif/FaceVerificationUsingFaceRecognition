@@ -1,6 +1,6 @@
 <?php
 include_once "include/db_operations.php";
-    //echo '<script>console.log("Hi")</script>';
+//echo '<script>console.log("Hi")</script>';
 if (isset($_POST['submit'])) {
     switch ($_POST['submit']) {
         case 'Save student':
@@ -27,89 +27,37 @@ if (isset($_POST['submit'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
     <link rel="stylesheet" href="css/modal.css" type="text/css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>home_page</title>
+    <title>Home</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
-    <div class="container-fluid">
-        <a href="home.html" class="navbar-brand"><strong>FaceReconization</strong></a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="navbar-item px-2">
-                    <a href="allstudent.html" class="nav-link active">AllStudent</a>
-                </li>
-                <li class="navbar-item px-2">
-                    <a href="View_attn.html" class="nav-link active"><strong>View Attandance</strong></a>
-                </li>
-                <li class="navbar-item px-2">
-                    <a href="Branch.html" class="nav-link active">Total Branch</a>
-                </li>
-                <li class="navbar-item px-2">
-                    <a href="sub.html" class="nav-link active">Total Subject</a>
-                </li>
-            </ul>
+<?php include_once 'html/header.html'; ?>
 
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown mr-3">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-user"></i> welcome brand
-                    </a>
-
-                    <div class="dropdown-menu">
-                        <a href="profile.html" class="dropdown-item">
-                            <i class="fa fa-user"></i>Profie
-                        </a>
-
-                        <a href="setting.html" class="dropdown-item">
-                            <i class="fa fa-gear"></i> Setting
-                        </a>
-                    </div>
-                </li>
-
-
-                <li class="nav-item">
-                    <a href="index.php" class="nav-link">
-                        <i class="fa fa-user"></i> Logout
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<!--action-->
-
+<!--Actions-->
 <section id="action" class="py-4 mb-4 bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addpoststdmodel">
                     <i class="fa fa-plus"></i>Add Student
                 </a>
             </div>
-            <div class="col-md-3">
+            <!--<div class="col-md-3">
                 <a href="#" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#addpostteamodel">
                     <i class="fa fa-plus"></i>Add Teachers
                 </a>
-            </div>
-            <div class="col-md-3">
+            </div>-->
+            <div class="col-md-4">
                 <a href="#" class="btn btn-success btn-block" data-toggle="modal" data-target="#addpostbramodel">
                     <i class="fa fa-plus"></i>Add Branch
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="#" class="btn btn-danger btn-block" data-toggle="modal" data-target="#addpostsubmodal">
+            <div class="col-md-4">
+                <a href="#" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#addpostsubmodal">
                     <i class="fa fa-plus"></i>Add Subject
                 </a>
             </div>
@@ -121,7 +69,7 @@ if (isset($_POST['submit'])) {
 <?php include_once "html/student_model.php"; ?>
 
 <!-- models teacher-->
-<?php include_once "html/teacher_model.html"; ?>
+<?php /*include_once "html/teacher_model.html"; */?>
 
 <!-- models Branch-->
 <?php include_once "html/branch_model.html"; ?>
@@ -206,7 +154,7 @@ if (isset($_POST['submit'])) {
                         <h1 class="display-4">
                             <i class="fa fa-pencil"></i>6
                         </h1>
-                        <a href="allstudent.html" class="btn btn-outline-light btn-sm">VIEW</a>
+                        <a href="view_all.php?view=Student" class="btn btn-outline-light btn-sm">VIEW</a>
                     </div>
                 </div>
 
@@ -216,7 +164,7 @@ if (isset($_POST['submit'])) {
                         <h1 class="display-4">
                             <i class="fa fa-users"></i>6
                         </h1>
-                        <a href="branch.html" class="btn btn-outline-light btn-sm">VIEW</a>
+                        <a href="view_all.php?view=Branch" class="btn btn-outline-light btn-sm">VIEW</a>
                     </div>
                 </div>
 
@@ -226,7 +174,7 @@ if (isset($_POST['submit'])) {
                         <h1 class="display-4">
                             <i class="fa fa-folder-open-o"></i>6
                         </h1>
-                        <a href="sub.html" class="btn btn-outline-light btn-sm">VIEW</a>
+                        <a href="view_all.php?view=Subject" class="btn btn-outline-light btn-sm">VIEW</a>
                     </div>
                 </div>
 
