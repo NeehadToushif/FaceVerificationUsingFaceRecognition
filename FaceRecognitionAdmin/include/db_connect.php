@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $username = 'root';
-$password = '';
+$password = 'toor';
 
 $db=mysqli_connect($host, $username, $password) or die('Unable to connect to database.Check the parameters.');
 

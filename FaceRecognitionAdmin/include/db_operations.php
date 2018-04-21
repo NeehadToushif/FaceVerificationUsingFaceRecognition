@@ -9,12 +9,12 @@ function addStudent()
     $imgContent = addslashes(file_get_contents($image));
 
     // TODO: blob is not inserted
-    $sql = "INSERT INTO 
-                student (stud_id, stud_name, stud_pass, dept_name, sem, photo) 
+    $sql = "INSERT INTO
+                student (stud_id, stud_name, stud_pass, dept_name, sem, photo)
               VALUES (
                 ?, ?, ?, ?, ?, ?
               )";
-    echo $imgContent;
+    //echo $imgContent;
     /*$stmt = mysqli_prepare($db, $sql) or die(mysqli_error($db));
 
     mysqli_stmt_bind_param($stmt, 'ssssib',$_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']

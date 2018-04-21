@@ -1,6 +1,5 @@
 <?php
 /**
- * Created by PhpStorm.
  * User: garim
  * Date: 11-03-2018
  * Time: 17:19
@@ -219,5 +218,3 @@ TableRow;
             </div>
 </body>
 </html>
-
-
