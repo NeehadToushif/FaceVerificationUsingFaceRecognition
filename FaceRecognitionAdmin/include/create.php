@@ -69,14 +69,16 @@ $query='CREATE TABLE attendance(
 mysqli_query($db,$query) or die(mysqli_error($db));
 
 $query='CREATE TABLE attendance_window(
-		stud_name VARCHAR(20) NOT NULL,
+		id INT NOT NULL AUTO_INCREMENT,
+		sub_name VARCHAR(20) NOT NULL,
 		sem INT(10) NOT NULL,
 		started_by TEXT NOT NULL,
 		is_on BOOLEAN NOT NULL,
 		classes INT NOT NULL,
 		dept_name VARCHAR(20) NOT NULL,
 		start_time TIMESTAMP NOT NULL,
-		stop_time TIMESTAMP NOT NULL/*
+		stop_time TIMESTAMP NOT NULL
+		PRIMARY KEY(id)/*
 		FOREIGN KEY (sub_name) REFERENCES subject(sub_name),
 		FOREIGN KEY (dept_name) REFERENCES student(dept_name)*/
 		)';
