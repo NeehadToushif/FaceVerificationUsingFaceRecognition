@@ -27,7 +27,7 @@
                         <label for="dept_name">Department</label>
                         <select name="dept_name" id="dept_name">
                             <?php
-                            include "../include/db_operations.php";
+                            //include "../include/db_operations.php";
 
                             $rows = readDepartment();
 
