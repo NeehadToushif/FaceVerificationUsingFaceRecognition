@@ -3,9 +3,11 @@
 
 $db=mysqli_connect('localhost','root','','face_recognition') or die('unable to connect .check the munachully parametrs');
 
-	// $stud_id = $_POST['stud_id'];
-	$stud_id = '041';
-	$stud_password = 'n';
+	$stud_id = $_POST['stud_id'];
+	// $stud_id = '041';
+
+	$stud_password = $_POST['stud_pass'];
+	// $stud_password = 'n';
 	// $sql =  "SELECT stud_name,stud_id,dept_name,semCOUNT(*) as 'number_of_attandance' FROM attandance where  sub_id = '$Subject' GROUP BY stud_id ";
 	// $result = mysqli_query($db,$sql);
 
