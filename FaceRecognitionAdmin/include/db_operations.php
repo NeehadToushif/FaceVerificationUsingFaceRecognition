@@ -7,6 +7,8 @@ function addStudent()
     $image = $_FILES['image']['tmp_name'];
     //$image = $_FILES['image']['tmp_name'];
     $imgContent = addslashes(file_get_contents($image));
+    $encoded_img = base64_encode($imgContent);
+
 
     // TODO: blob is not inserted
     $sql = "INSERT INTO
@@ -28,8 +30,8 @@ function addStudent()
 
 
 
-    $stmt->bind_param('ssssib',$_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']
-        , $_POST['dept_name'], $_POST['sem'], $imgContent);
+    $stmt->bind_param('ssssis',$_POST['reg_no'], $_POST['stud_name'], $_POST['stud_pass']
+        , $_POST['dept_name'], $_POST['sem'], $encoded_img);
 
     $stmt->execute();
     print_r($stmt->fullQuery);
