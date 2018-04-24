@@ -38,7 +38,7 @@ TableHeader;
         case 'Student':
             $sql = "SELECT * FROM student";
             $table = <<<TableHeader
-<thead class="thead-inverse">
+<thead class="thead-inverse" id="student-table">
                         <tr>
                             <th>Reg No.</th>
                             <th>Student Name</th>
@@ -70,6 +70,12 @@ TableHeader;
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>      
+
     <title>View <?php echo $_GET['view']; ?></title>
 
     <style type="text/css">
@@ -88,11 +94,13 @@ TableHeader;
         <div class="row">
             <?php /*include "html/student_model.php"; */?>
             <div class="col-md-6 ml-auto">
+
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="search">
+
+                    <input type="text" class="form-control" id="search-text" placeholder="search" name="search">
                     <span class="input-group-btn">
-									    <button class="btn btn-primary">Search</button>
-									</span>
+					<button class="btn btn-primary" id="submit">Search</button>
+					</span>
                 </div>
             </div>
         </div>
@@ -109,9 +117,9 @@ TableHeader;
                     <div class="card-header">
                         <h4>All <?php echo $_GET['view']; ?></h4>
                     </div>
-                    <table class="table table-striped">
+                    <table class="table table-striped" id="table-data">
                         <?php
-                        echo $table;
+                        // echo $table;
                         if ($result) {
                             switch ($_GET['view']) {
                                 /********************************************************
@@ -120,19 +128,21 @@ TableHeader;
                                 case 'Student':
                                     while ($row = $result->fetch_assoc()) {
                                         $table = <<<TableRow
-<tr>
-<td>{$row['stud_id']}</td>
+                    <tr name="tr">
+                    <td>{$row['stud_id']}</td>
                     <td>{$row['stud_name']}</td>
                     <td>{$row['dept_name']}</td>
                     <td>{$row['sem']}</td>
-                    <td class="actions"><a href="#" class="btn btn-info btn-xs">
+                    <td class="actions"><a href="edit_student.php?id={$row['stud_id']}&view={$_GET['view']}" class="btn btn-info btn-xs" name='edit'>
                             <span class="glyphicon glyphicon-pencil"></span> Edit
                         </a>
-                        <a href="#" class="btn btn-info btn-xs">
+                        <button class="btn btn-info btn-xs delete" value="{$row['stud_id']}">
                             <span class="glyphicon glyphicon-remove"></span> Remove
-                        </a>
+                        </button>
                     </td>
                 </tr>
+
+                
 
 TableRow;
 
@@ -174,7 +184,8 @@ TableRow;
                                         $table = <<<TableRow
                 <tr>
                     <td>{$row['dept_name']}</td>
-                    <td class="actions"><a href="#" class="btn btn-info btn-xs">
+                    <td class="actions">
+                    <a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpoststdmodel>
                             <span class="glyphicon glyphicon-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-info btn-xs">
@@ -196,6 +207,7 @@ TableRow;
                 </div>
                 </header>
             </div>
+        
             <div class="container">
                 <nav aria-label="...">
                     <ul class="pagination">
@@ -218,3 +230,53 @@ TableRow;
             </div>
 </body>
 </html>
+
+<script>
+    $(document).ready(function(){
+        
+        $('#submit').on('click', function(){
+            var stud_id = $('#search-text').val();
+            console.log(stud_id);
+            if(stud_id!='')
+            {
+                $.ajax({
+                    url:"view_all_search.php",
+                    method: "POST",
+                    data:{id:stud_id},
+                    success:function(data){
+                        console.log(data);
+                        $("#table-data").empty();
+                        $('#table-data').html(data);
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<script>
+/*var table = $('#').DataTable();    
+$('#student-table').on( 'click', 'img.icon-delete', function () {
+    table
+        .row( $(this).parents('tr') )
+        .remove()
+        .draw();
+} );*/
+
+$(".delete").on('click', function() {
+    var obj = $(this);
+    
+    $.ajax({
+                    url:"remove_student.php",
+                    method: "POST",
+                    data:{id:$(this).val()},
+                    success:function(data){
+                        //console.log($(this).parent().css( "background", "yellow" ));
+                        console.log(data);
+                        if(data == "success") {
+                            obj.parent("td").parent("tr").remove();
+                        }
+                    }
+                });
+});
+</script>
