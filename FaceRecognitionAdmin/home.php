@@ -1,4 +1,5 @@
 <?php
+include_once "include/db_connect.php";
 include_once "include/db_operations.php";
 //echo '<script>console.log("Hi")</script>';
 if (isset($_POST['submit'])) {

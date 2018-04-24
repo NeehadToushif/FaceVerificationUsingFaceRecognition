@@ -7,6 +7,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL|E_STRICT);
 require_once "include/db_connect.php";
+include_once "include/db_operations.php";
 
 if (isset($_GET['view'])) {
     switch ($_GET['view']) {
@@ -53,7 +54,6 @@ TableHeader;
 
     $result = mysqli_query($db, $sql) or die(mysqli_error($db));
 
-    $db->close();
 }
 
 
@@ -86,7 +86,7 @@ TableHeader;
     </style>
 </head>
 <body>
-<?php include_once "html/header.html"; ?>
+<?php include "html/header.html"; ?>
 
 <!--action-->
 <section id="action" class="py-4 mb-4 bg-light">
@@ -161,7 +161,7 @@ TableRow;
                     <td>{$row['sub_name']}</td>
                     <td>{$row['dept_name']}</td>
                     <td>{$row['sem']}</td>
-                    <td class="actions"><a href="#" class="btn btn-info btn-xs">
+                    <td class="actions"><a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpostsubmodal">
                             <span class="glyphicon glyphicon-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-info btn-xs">
@@ -184,8 +184,8 @@ TableRow;
                                         $table = <<<TableRow
                 <tr>
                     <td>{$row['dept_name']}</td>
-                    <td class="actions">
-                    <a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpoststdmodel>
+                    <td class="actions"><a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpostbramodel">
+
                             <span class="glyphicon glyphicon-pencil"></span> Edit
                         </a>
                         <a href="#" class="btn btn-info btn-xs">
@@ -228,6 +228,15 @@ TableRow;
                     </ul>
                 </nav>
             </div>
+
+            <!-- models student-->
+            <?php include "html/student_model.php"; ?>
+
+            <!-- models Branch-->
+            <?php include_once "html/branch_model.html"; ?>
+
+            <!---Models Subject-->
+            <?php include_once "html/subject_model.php"; ?>
 </body>
 </html>
 
