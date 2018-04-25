@@ -40,5 +40,5 @@ TableRow;
 	echo $output;
 }            
 
-?>                        
-                        
+?>
+

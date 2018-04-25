@@ -161,12 +161,13 @@ TableRow;
                     <td>{$row['sub_name']}</td>
                     <td>{$row['dept_name']}</td>
                     <td>{$row['sem']}</td>
-                    <td class="actions"><a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpostsubmodal">
+                    <td class="actions"><a href="edit_subject.php?id={$row['sub_id']}&view={$_GET['view']}" class="btn btn-info btn-xs"name='edit'>
                             <span class="glyphicon glyphicon-pencil"></span> Edit
                         </a>
-                        <a href="#" class="btn btn-info btn-xs">
+
+                        <button class="btn btn-info btn-xs delete" value="{$row['sub_id']}">
                             <span class="glyphicon glyphicon-remove"></span> Remove
-                        </a>
+                        </button>
                     </td>
                 </tr>
 
@@ -184,13 +185,12 @@ TableRow;
                                         $table = <<<TableRow
                 <tr>
                     <td>{$row['dept_name']}</td>
-                    <td class="actions"><a href="#" class="btn btn-info btn-xs" data-toggle="modal" data-target="#addpostbramodel">
+                    <td class="actions">
 
-                            <span class="glyphicon glyphicon-pencil"></span> Edit
-                        </a>
-                        <a href="#" class="btn btn-info btn-xs">
+                            
+                        <button class="btn btn-info btn-xs delete" value="{$row['dept_name']}">
                             <span class="glyphicon glyphicon-remove"></span> Remove
-                        </a>
+                        </button>
                     </td>
                 </tr>
 TableRow;
@@ -245,13 +245,14 @@ TableRow;
         
         $('#submit').on('click', function(){
             var stud_id = $('#search-text').val();
+            
             console.log(stud_id);
             if(stud_id!='')
             {
                 $.ajax({
                     url:"view_all_search.php",
                     method: "POST",
-                    data:{id:stud_id},
+                    data:{id:stud_id,},
                     success:function(data){
                         console.log(data);
                         $("#table-data").empty();
@@ -263,20 +264,62 @@ TableRow;
     });
 </script>
 
+
+
+
+
+
+
 <script>
-/*var table = $('#').DataTable();    
-$('#student-table').on( 'click', 'img.icon-delete', function () {
-    table
-        .row( $(this).parents('tr') )
-        .remove()
-        .draw();
-} );*/
+
+
 
 $(".delete").on('click', function() {
     var obj = $(this);
     
     $.ajax({
                     url:"remove_student.php",
+                    method: "POST",
+                    data:{id:$(this).val()},
+                    success:function(data){
+                        //console.log($(this).parent().css( "background", "yellow" ));
+                        console.log(data);
+                        if(data == "success") {
+                            obj.parent("td").parent("tr").remove();
+                        }
+                    }
+                });
+});
+</script>
+
+<script>
+
+
+
+$(".delete").on('click', function() {
+    var obj = $(this);
+    
+    $.ajax({
+                    url:"remove_branch.php",
+                    method: "POST",
+                    data:{id:$(this).val()},
+                    success:function(data){
+                        //console.log($(this).parent().css( "background", "yellow" ));
+                        console.log(data);
+                        if(data == "success") {
+                            obj.parent("td").parent("tr").remove();
+                        }
+                    }
+                });
+});
+</script>
+<script>
+
+$(".delete").on('click', function() {
+    var obj = $(this);
+    
+    $.ajax({
+                    url:"remove_subject.php",
                     method: "POST",
                     data:{id:$(this).val()},
                     success:function(data){
